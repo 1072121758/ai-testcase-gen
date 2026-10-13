@@ -1,0 +1,60 @@
+INFO:root:user access: Wendi
+INFO:root:user access: Wendi
+INFO:root:user access: Wendi
+INFO:root:user access: Wendi
+INFO:root:user access: Wendi
+INFO:root:user access: Wendi
+INFO:root:user access: Wendi
+INFO:root:user access: Wendi
+INFO:root:user access: Wendi
+INFO user access Wendi
+ERROR database timeout
+ERROR login failedINFO:root:user access: Wendi
+INFO:root:user access: Wendi
+INFO:root:user access: Wendi
+INFO:httpx:HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/login "HTTP/1.1 401 Unauthorized"
+INFO:httpx:HTTP Request: POST http://testserver/auth/token "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/users/me "HTTP/1.1 401 Unauthorized"
+INFO:httpx:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/users/me "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/users/me "HTTP/1.1 401 Unauthorized"
+INFO:httpx:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/todos "HTTP/1.1 201 Created"
+INFO:httpx:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/todos "HTTP/1.1 201 Created"
+INFO:httpx:HTTP Request: GET http://testserver/todos "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/todos "HTTP/1.1 401 Unauthorized"
+INFO:httpx:HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/login "HTTP/1.1 401 Unauthorized"
+INFO:httpx:HTTP Request: POST http://testserver/auth/token "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/users/me "HTTP/1.1 401 Unauthorized"
+INFO:httpx:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/users/me "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/users/me "HTTP/1.1 401 Unauthorized"
+INFO:httpx:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/todos "HTTP/1.1 201 Created"
+INFO:httpx:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/todos "HTTP/1.1 201 Created"
+INFO:httpx:HTTP Request: GET http://testserver/todos "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/todos "HTTP/1.1 401 Unauthorized"
+INFO:httpx:HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/users/me "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/users/me "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: GET http://testserver/users/me "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: GET http://testserver/users/me "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: POST http://testserver/todos "HTTP/1.1 201 Created"
+INFO:httpx2:HTTP Request: POST http://testserver/login "HTTP/1.1 200 OK"
+INFO:httpx2:HTTP Request: GET http://testserver/todos "HTTP/1.1 200 OK"

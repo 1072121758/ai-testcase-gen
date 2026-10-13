@@ -1,28 +1,23 @@
 import logging
 
-from app.user import User
 from fastapi import FastAPI
 
+from app.auth import router as auth_router
+from app.todo import router as todo_router
+from app.user import router as user_router
 
 logging.basicConfig(
     filename="app.log",
-    level=logging.INFO
+    level=logging.INFO,
 )
 
+app = FastAPI(title="Todo API")
 
-app = FastAPI()
+app.include_router(auth_router)
+app.include_router(user_router)
+app.include_router(todo_router)
 
 
 @app.get("/")
 def read_root():
-
-    user = User(
-        "Wendi",
-        "wendi@example.com"
-    )
-
-    logging.info(
-        f"user access: {user.name}"
-    )
-
-    return f"Hello {user.name}!Welcome to Todo API"
+    return {"message": "Welcome to Todo API"}
